@@ -1,0 +1,40 @@
+1- git config: Define o nome de usuario e o endereço de email para commits{
+    git config --global user.name 'usuario'
+    git config --global user.email 'usuario@email.com
+    '
+}
+
+2- git init: Inicializa um repositorio {
+    git init
+}
+
+3- git clone: Clona um repositorio  do servidor como github.gilab(lembrando que precisa registrar tonkens para senhas){
+    git clone https://github.com/pedro354/meu-aprendizado-git-github.git
+}
+
+4- git status: Verifica o status atual da árvore de trabalho{
+    git status
+}
+
+5- git pull: Busca sicronizar o conteudo do repositorio remoto ao seu repositorio local. {
+    git pull
+}
+
+6- git add: Coloca os arquivos não preparados, monitorados na aera de preparação "staging area"{
+    git add index.html 'adiciona apenas o arquivo passado como index.html'
+    git add . 'Adiciona todos os arquivos que estão como unstage'
+}
+
+7- git push: Envia o conteudo do seu repositorio lcoal para o repositorio remoto adicionado como github{
+    git push -u origin main
+}
+
+8- git commit: Registra alterações no repositorio git salvando uma mensagem de log junto com um ID do commit{
+    git commit -m 'textoTextotextoTexto'
+    git commit -a faz o commit mas sem mensagem
+}
+
+9- git checkout[branch]: Passa de um branch para outra{
+    git checkout pagamentos
+    git checkout -b homepage ---> Cria essa branch 'homepage' e automaticamente já troca para ela.
+}
